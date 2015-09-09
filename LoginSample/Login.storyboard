@@ -11,8 +11,10 @@
                     <window key="window" title="Window" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="uVx-XA-7L6">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
-                        <rect key="contentRect" x="163" y="199" width="480" height="270"/>
+                        <rect key="contentRect" x="600" y="216" width="200" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1280" height="777"/>
+                        <value key="minSize" type="size" width="200" height="270"/>
+                        <value key="maxSize" type="size" width="200" height="270"/>
                     </window>
                     <connections>
                         <segue destination="5WL-XG-ouT" kind="relationship" relationship="window.shadowedContentViewController" id="z2j-dy-fTK"/>
@@ -27,14 +29,14 @@
             <objects>
                 <viewController storyboardIdentifier="LoginController" id="5WL-XG-ouT" customClass="LoginController" customModule="LoginSample" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="aE7-9W-Uyd">
-                        <rect key="frame" x="0.0" y="0.0" width="480" height="270"/>
+                        <rect key="frame" x="0.0" y="0.0" width="200" height="270"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <subviews>
                             <button verticalHuggingPriority="750" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Uic-sJ-Tyg">
-                                <rect key="frame" x="179" y="125" width="122" height="19"/>
+                                <rect key="frame" x="39" y="125" width="122" height="19"/>
                                 <buttonCell key="cell" type="roundRect" title="Login" bezelStyle="roundedRect" alignment="center" state="on" borderStyle="border" imageScaling="proportionallyDown" inset="2" id="Zjs-0K-mMs">
                                     <behavior key="behavior" pushIn="YES" lightByBackground="YES" lightByGray="YES"/>
-                                    <font key="font" metaFont="controlContent"/>
+                                    <font key="font" metaFont="cellTitle"/>
                                 </buttonCell>
                                 <connections>
                                     <action selector="login:" target="5WL-XG-ouT" id="m5d-Ro-rHa"/>
